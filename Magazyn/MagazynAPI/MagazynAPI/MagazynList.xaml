@@ -1,0 +1,47 @@
+﻿<Page x:Class="MagazynAPI.MagazynList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MagazynAPI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MagazynList">
+
+    <Grid Name="PageGrid" Loaded="PageGrid_Loaded">
+        <DataGrid x:Name="ListGrid" HorizontalAlignment="Left" Height="347" Margin="40,44,0,0" VerticalAlignment="Top" Width="529"/>
+        <Label x:Name="label" HorizontalAlignment="Left" Margin="44,400,0,0" VerticalAlignment="Top" Height="33" Width="514" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.083"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="nazwaText" HorizontalAlignment="Left" Height="23" Margin="650,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="katText" HorizontalAlignment="Left" Height="23" Margin="650,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="prodText" HorizontalAlignment="Left" Height="23" Margin="650,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="iloText" HorizontalAlignment="Left" Height="23" Margin="650,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="samoText" HorizontalAlignment="Left" Height="23" Margin="650,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="silnikText" HorizontalAlignment="Left" Height="23" Margin="650,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="cenaText" Height="23" Margin="650,212,30,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label x:Name="namelab" Content="Nazwa" HorizontalAlignment="Left" Margin="574,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.089,0.577"/>
+        <Label x:Name="katlab" Content="Kategoria" HorizontalAlignment="Left" Margin="574,69,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="prodlab" Content="Producent" HorizontalAlignment="Left" Margin="574,97,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ilelab" Content="Ilość" HorizontalAlignment="Left" Margin="574,128,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="samlab" Content="Samochód" HorizontalAlignment="Left" Margin="574,155,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="sillab" Content="Silnik" HorizontalAlignment="Left" Margin="574,181,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="cenalab" Content="Cena" HorizontalAlignment="Left" Margin="574,209,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="addBut" Content="Dodaj" HorizontalAlignment="Left" Margin="583,266,0,0" VerticalAlignment="Top" Width="75" Click="addBut_Click"/>
+        <Button x:Name="aktBut" Content="Aktualizuj" HorizontalAlignment="Left" Margin="583,303,0,0" VerticalAlignment="Top" Width="75" Click="aktBut_Click"/>
+        <Button x:Name="usuBut" Content="Usuń" HorizontalAlignment="Left" Margin="583,342,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="usuBut_Click"/>
+        <Button x:Name="odsBut" Content="Odśwież" HorizontalAlignment="Left" Margin="583,408,0,0" VerticalAlignment="Top" Width="187" Click="odsBut_Click"/>
+        <TextBox x:Name="DelText" HorizontalAlignment="Left" Height="23" Margin="723,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"/>
+        <Label x:Name="tytulLab" Content="MAGAZYN - CZĘŚCI" HorizontalAlignment="Left" Margin="278,10,0,0" VerticalAlignment="Top" Width="261" FontSize="14"/>
+        <TextBox x:Name="AktText" HorizontalAlignment="Left" Height="23" Margin="723,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"/>
+        <Label x:Name="idUsun" Content="ID" HorizontalAlignment="Left" Margin="681,341,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="idAkt" Content="ID" HorizontalAlignment="Left" Margin="681,300,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>

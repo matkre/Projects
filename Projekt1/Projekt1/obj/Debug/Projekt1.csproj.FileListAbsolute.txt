@@ -1,0 +1,12 @@
+c:\users\studentwsb\documents\visual studio 2013\Projects\Projekt1\Projekt1\bin\Debug\Projekt1.exe.config
+c:\users\studentwsb\documents\visual studio 2013\Projects\Projekt1\Projekt1\bin\Debug\Projekt1.exe
+c:\users\studentwsb\documents\visual studio 2013\Projects\Projekt1\Projekt1\bin\Debug\Projekt1.pdb
+c:\users\studentwsb\documents\visual studio 2013\Projects\Projekt1\Projekt1\obj\Debug\Projekt1.csprojResolveAssemblyReference.cache
+c:\users\studentwsb\documents\visual studio 2013\Projects\Projekt1\Projekt1\obj\Debug\Projekt1.exe
+c:\users\studentwsb\documents\visual studio 2013\Projects\Projekt1\Projekt1\obj\Debug\Projekt1.pdb
+C:\Users\krenca.m\Desktop\Nowy folder (2) — kopia\Projekt1\Projekt1\bin\Debug\Projekt1.exe.config
+C:\Users\krenca.m\Desktop\Nowy folder (2) — kopia\Projekt1\Projekt1\bin\Debug\Projekt1.exe
+C:\Users\krenca.m\Desktop\Nowy folder (2) — kopia\Projekt1\Projekt1\bin\Debug\Projekt1.pdb
+C:\Users\krenca.m\Desktop\Nowy folder (2) — kopia\Projekt1\Projekt1\obj\Debug\Projekt1.csprojAssemblyReference.cache
+C:\Users\krenca.m\Desktop\Nowy folder (2) — kopia\Projekt1\Projekt1\obj\Debug\Projekt1.exe
+C:\Users\krenca.m\Desktop\Nowy folder (2) — kopia\Projekt1\Projekt1\obj\Debug\Projekt1.pdb
